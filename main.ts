@@ -355,6 +355,6 @@ Apple = sprites.create(img`
     `, SpriteKind.Food5)
 mySprite.setBounceOnWall(true)
 game.onUpdate(function () {
-    mySprite.x += controller.dx(175)
-    mySprite.y += controller.dy(175)
+    mySprite.x += controller.dx(200)
+    mySprite.y += controller.dy(200)
 })
